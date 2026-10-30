@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-30 07:36 UTC",
+  "generated_utc": "2026-10-30 08:12 UTC",
   "period": {
     "from": "2026-10-25",
     "to": "2026-10-25"
@@ -13,26 +13,24 @@
       "thermal": true,
       "hot_trains": 4,
       "frp_sum": 0,
-      "lng_alongside_img": 2,
-      "liquid_alongside_img": 1,
+      "lng_loadings": null,
+      "liquid_loadings": null,
+      "sulphur_loadings": null,
+      "drycargo_calls": null,
+      "project_cargo_calls": null,
+      "export_pct_of_norm": null,
+      "lng_alongside_img": 1,
+      "liquid_alongside_img": 0,
       "drycargo_alongside_img": 1,
       "berths_unchecked": 0,
       "yards_filling": [
         "Laydown yard"
       ],
-      "yards_clearing": [],
-      "lng_loadings": 0,
-      "liquid_loadings": 0,
-      "sulphur_loadings": 0,
-      "drycargo_calls": 0,
-      "project_cargo_calls": 0,
-      "dredgers": 0,
-      "tugs": 0,
-      "export_pct_of_norm": 0.0,
-      "norm_cargoes": 24.0
+      "yards_clearing": []
     },
     "caveats": [
-      "LNG carrier alongside on the image of 2026-10-25: JET-1, JET-2. A vessel at the berth proves it came to load; it does not prove it sailed loaded.",
+      "AIS collected no vessels at all — its figures are unknown, not zero. The verdict below rests on imagery.",
+      "LNG carrier alongside on the image of 2026-10-25: JET-2. A vessel at the berth proves it came to load; it does not prove it sailed loaded.",
       "Vessel at a dry cargo berth (QUAY-E) and the laydown area is filling (Laydown yard) — together that reads as equipment arriving."
     ]
   },
@@ -81,7 +79,7 @@
       "confidence": "high",
       "evidence": [
         "hot SWIR pixels: 664",
-        "LNG carrier alongside on the image: JET-1, JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
+        "LNG carrier alongside on the image: JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
       ],
       "hot_pixels": 664,
       "dnbr": 0.061,
@@ -97,7 +95,7 @@
       "confidence": "high",
       "evidence": [
         "hot SWIR pixels: 149",
-        "LNG carrier alongside on the image: JET-1, JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
+        "LNG carrier alongside on the image: JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
       ],
       "hot_pixels": 149,
       "dnbr": 0.052,
@@ -113,7 +111,7 @@
       "confidence": "high",
       "evidence": [
         "hot SWIR pixels: 344",
-        "LNG carrier alongside on the image: JET-1, JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
+        "LNG carrier alongside on the image: JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
       ],
       "hot_pixels": 344,
       "dnbr": 0.044,
@@ -129,7 +127,7 @@
       "confidence": "high",
       "evidence": [
         "hot SWIR pixels: 662",
-        "LNG carrier alongside on the image: JET-1, JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
+        "LNG carrier alongside on the image: JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
       ],
       "hot_pixels": 662,
       "dnbr": 0.026,
@@ -144,10 +142,12 @@
       "venture": "North mole",
       "vessel_px": 343,
       "vessel_frac": 0.007,
-      "occupied": true,
+      "occupied": false,
       "snapshot_date": "2026-10-25",
       "baseline_used": true,
-      "vessel_area_m2": 10497
+      "vessels": [],
+      "vessel_count": 0,
+      "vessel_area_m2": 0
     },
     {
       "berth": "JET-2",
@@ -158,7 +158,18 @@
       "occupied": true,
       "snapshot_date": "2026-10-25",
       "baseline_used": true,
-      "vessel_area_m2": 5290
+      "vessels": [
+        {
+          "length_m": 127,
+          "area_m2": 1348
+        },
+        {
+          "length_m": 106,
+          "area_m2": 1141
+        }
+      ],
+      "vessel_count": 2,
+      "vessel_area_m2": 2489
     },
     {
       "berth": "JET-3",
@@ -169,7 +180,9 @@
       "occupied": false,
       "snapshot_date": "2026-10-25",
       "baseline_used": true,
-      "vessel_area_m2": 1040
+      "vessels": [],
+      "vessel_count": 0,
+      "vessel_area_m2": 0
     },
     {
       "berth": "JET-W",
@@ -177,10 +190,12 @@
       "venture": "West mole",
       "vessel_px": 81,
       "vessel_frac": 0.003,
-      "occupied": true,
+      "occupied": false,
       "snapshot_date": "2026-10-25",
       "baseline_used": true,
-      "vessel_area_m2": 2599
+      "vessels": [],
+      "vessel_count": 0,
+      "vessel_area_m2": 0
     },
     {
       "berth": "BAS-E",
@@ -191,7 +206,9 @@
       "occupied": false,
       "snapshot_date": "2026-10-25",
       "baseline_used": true,
-      "vessel_area_m2": 840
+      "vessels": [],
+      "vessel_count": 0,
+      "vessel_area_m2": 0
     },
     {
       "berth": "BAS-S",
@@ -202,7 +219,9 @@
       "occupied": false,
       "snapshot_date": "2026-10-25",
       "baseline_used": true,
-      "vessel_area_m2": 78
+      "vessels": [],
+      "vessel_count": 0,
+      "vessel_area_m2": 0
     },
     {
       "berth": "PIER-NE",
@@ -213,7 +232,9 @@
       "occupied": false,
       "snapshot_date": "2026-10-25",
       "baseline_used": true,
-      "vessel_area_m2": 604
+      "vessels": [],
+      "vessel_count": 0,
+      "vessel_area_m2": 0
     },
     {
       "berth": "PIER-S",
@@ -224,7 +245,9 @@
       "occupied": false,
       "snapshot_date": "2026-10-25",
       "baseline_used": true,
-      "vessel_area_m2": 338
+      "vessels": [],
+      "vessel_count": 0,
+      "vessel_area_m2": 0
     },
     {
       "berth": "QUAY-E",
@@ -235,7 +258,14 @@
       "occupied": true,
       "snapshot_date": "2026-10-25",
       "baseline_used": true,
-      "vessel_area_m2": 98174
+      "vessels": [
+        {
+          "length_m": 102,
+          "area_m2": 1720
+        }
+      ],
+      "vessel_count": 1,
+      "vessel_area_m2": 1720
     },
     {
       "berth": "QUAY-NE",
@@ -246,7 +276,9 @@
       "occupied": false,
       "snapshot_date": "2026-10-25",
       "baseline_used": true,
-      "vessel_area_m2": 644
+      "vessels": [],
+      "vessel_count": 0,
+      "vessel_area_m2": 0
     }
   ],
   "sites": [
@@ -340,37 +372,13 @@
       "enabled": true,
       "checks": [
         {
-          "object": "JET-1",
-          "kind": "berth",
-          "code": "vessel (10497 m2 of bright deck)",
-          "ai": "vessel: unclear, direction unknown",
-          "ai_confidence": "high",
-          "ai_note": "A relatively small, greenish-hulled vessel is moored along the eastern face of the angled jetty pier.",
-          "provider": "gemini",
-          "agree": true,
-          "ai_direction": "unknown",
-          "ai_direction_clues": []
-        },
-        {
           "object": "JET-2",
           "kind": "berth",
-          "code": "vessel (5290 m2 of bright deck)",
+          "code": "vessel (2489 m2 of bright deck)",
           "ai": "no vessel",
-          "ai_confidence": "high",
-          "ai_note": "Both jetty arms and mooring dolphins are clearly visible with no vessel present.",
-          "provider": "gemini",
-          "agree": false,
-          "ai_direction": "unknown",
-          "ai_direction_clues": []
-        },
-        {
-          "object": "JET-W",
-          "kind": "berth",
-          "code": "vessel (2599 m2 of bright deck)",
-          "ai": "no vessel",
-          "ai_confidence": "high",
-          "ai_note": "The berth and surrounding jetty structure are clear with no vessel present.",
-          "provider": "gemini",
+          "ai_confidence": "medium",
+          "ai_note": "Two lit jetties extend into dark water with no visible hull, superstructure, or moored ship alongside either one.",
+          "provider": "claude",
           "agree": false,
           "ai_direction": "unknown",
           "ai_direction_clues": []
@@ -378,12 +386,24 @@
         {
           "object": "QUAY-E",
           "kind": "berth",
-          "code": "vessel (98174 m2 of bright deck)",
-          "ai": "vessel: unclear, direction unknown",
-          "ai_confidence": "low",
-          "ai_note": "An orange and grey elongated object sits against the upper-right pier, possibly a moored vessel, but at 2.9 m per pixel its type cannot be determined and no car",
-          "provider": "claude",
+          "code": "vessel (1720 m2 of bright deck)",
+          "ai": "vessel: barge, direction unknown",
+          "ai_confidence": "medium",
+          "ai_note": "A barge or service vessel is moored near the jetty dolphins in the upper right, while the central loading platform remains vacant.",
+          "provider": "gemini",
           "agree": true,
+          "ai_direction": "unknown",
+          "ai_direction_clues": []
+        },
+        {
+          "object": "JET-1",
+          "kind": "berth",
+          "code": "no vessel",
+          "ai": "vessel: unclear, direction unknown",
+          "ai_confidence": "high",
+          "ai_note": "A small vessel with a greenish hull and white superstructure is moored alongside the jetty.",
+          "provider": "gemini",
+          "agree": false,
           "ai_direction": "unknown",
           "ai_direction_clues": []
         },
@@ -392,9 +412,21 @@
           "kind": "berth",
           "code": "no vessel",
           "ai": "no vessel",
-          "ai_confidence": "high",
-          "ai_note": "The berth dolphins and jetty structure are visible with only open water alongside.",
-          "provider": "gemini",
+          "ai_confidence": "medium",
+          "ai_note": "Two finger jetties extend from a bright causeway into dark water, with no hull, superstructure, or mooring ship visible at either berth.",
+          "provider": "claude",
+          "agree": true,
+          "ai_direction": "unknown",
+          "ai_direction_clues": []
+        },
+        {
+          "object": "JET-W",
+          "kind": "berth",
+          "code": "no vessel",
+          "ai": "no vessel",
+          "ai_confidence": "medium",
+          "ai_note": "The curved causeway and angled jetty are visible, but no hull, superstructure, or moored ship appears against the dark water.",
+          "provider": "claude",
           "agree": true,
           "ai_direction": "unknown",
           "ai_direction_clues": []
@@ -405,7 +437,7 @@
           "code": "no vessel",
           "ai": "no vessel",
           "ai_confidence": "high",
-          "ai_note": "The jetty structure and mooring dolphins are completely empty with no vessel present.",
+          "ai_note": "The jetty trestle and mooring dolphins are empty with no ship berthed.",
           "provider": "gemini",
           "agree": true,
           "ai_direction": "unknown",
@@ -458,7 +490,7 @@
     "note": "all components available"
   },
   "intel": {
-    "collected": "2026-10-30 07:31 UTC",
+    "collected": "2026-10-30 08:04 UTC",
     "news_count": 0,
     "tone": null,
     "volume": [],
@@ -1205,7 +1237,7 @@
       }
     ],
     "note": "Filings are available only for companies listed in the US. Technip Energies, Saipem, Chiyoda, JGC and others are not covered here. QatarEnergy is state-owned and publishes no full accounts.",
-    "collected": "2026-10-30 07:32 UTC"
+    "collected": "2026-10-30 08:05 UTC"
   },
   "areas": {
     "ras-laffan": {

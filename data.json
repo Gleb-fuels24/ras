@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-30 08:12 UTC",
+  "generated_utc": "2026-10-30 09:47 UTC",
   "period": {
     "from": "2026-10-25",
     "to": "2026-10-25"
@@ -377,7 +377,7 @@
           "code": "vessel (2489 m2 of bright deck)",
           "ai": "no vessel",
           "ai_confidence": "medium",
-          "ai_note": "Two lit jetties extend into dark water with no visible hull, superstructure, or moored ship alongside either one.",
+          "ai_note": "The two jetties and the curved quay edge are visible, but the water between and beside them is empty with no hull, superstructure, or wake.",
           "provider": "claude",
           "agree": false,
           "ai_direction": "unknown",
@@ -387,10 +387,10 @@
           "object": "QUAY-E",
           "kind": "berth",
           "code": "vessel (1720 m2 of bright deck)",
-          "ai": "vessel: barge, direction unknown",
-          "ai_confidence": "medium",
-          "ai_note": "A barge or service vessel is moored near the jetty dolphins in the upper right, while the central loading platform remains vacant.",
-          "provider": "gemini",
+          "ai": "vessel: unclear, direction unknown",
+          "ai_confidence": "low",
+          "ai_note": "An elongated orange-brown object with a pale superstructure sits at the top-right berth, possibly a moored vessel, but the resolution doesn't allow a confident ",
+          "provider": "claude",
           "agree": true,
           "ai_direction": "unknown",
           "ai_direction_clues": []
@@ -400,9 +400,9 @@
           "kind": "berth",
           "code": "no vessel",
           "ai": "vessel: unclear, direction unknown",
-          "ai_confidence": "high",
-          "ai_note": "A small vessel with a greenish hull and white superstructure is moored alongside the jetty.",
-          "provider": "gemini",
+          "ai_confidence": "medium",
+          "ai_note": "An elongated, greenish-grey hull lies alongside the angled jetty on its east side, but its type is not clear at this resolution.",
+          "provider": "claude",
           "agree": false,
           "ai_direction": "unknown",
           "ai_direction_clues": []
@@ -413,7 +413,7 @@
           "code": "no vessel",
           "ai": "no vessel",
           "ai_confidence": "medium",
-          "ai_note": "Two finger jetties extend from a bright causeway into dark water, with no hull, superstructure, or mooring ship visible at either berth.",
+          "ai_note": "Two narrow jetties extend into dark water along a bright quay edge, but no ship or hull is visible at either berth.",
           "provider": "claude",
           "agree": true,
           "ai_direction": "unknown",
@@ -425,7 +425,7 @@
           "code": "no vessel",
           "ai": "no vessel",
           "ai_confidence": "medium",
-          "ai_note": "The curved causeway and angled jetty are visible, but no hull, superstructure, or moored ship appears against the dark water.",
+          "ai_note": "The crop shows only a curved causeway, a jetty arm and dark water, with no hull, superstructure or mooring lines visible.",
           "provider": "claude",
           "agree": true,
           "ai_direction": "unknown",
@@ -436,9 +436,9 @@
           "kind": "berth",
           "code": "no vessel",
           "ai": "no vessel",
-          "ai_confidence": "high",
-          "ai_note": "The jetty trestle and mooring dolphins are empty with no ship berthed.",
-          "provider": "gemini",
+          "ai_confidence": "medium",
+          "ai_note": "The jetty and its piles are visible, but no hull lies alongside; the only dark streak is in open water away from the structure.",
+          "provider": "claude",
           "agree": true,
           "ai_direction": "unknown",
           "ai_direction_clues": []
@@ -446,14 +446,13 @@
       ],
       "calls": 6,
       "providers": [
-        "claude",
-        "gemini"
+        "claude"
       ],
       "agreed": 4,
       "disputed": 2,
       "note": "проверено объектов: 6, совпало 4, разошлось 2"
     },
-    "index": 13.3,
+    "index": 13.7,
     "level": {
       "label": "low",
       "status": "good",
@@ -475,7 +474,7 @@
       "press": {
         "label": "Press",
         "weight": 0.2,
-        "score": 0.0,
+        "score": 1.7,
         "why": "tender and award mentions, tone of coverage"
       },
       "mobilisation": {
@@ -490,8 +489,8 @@
     "note": "all components available"
   },
   "intel": {
-    "collected": "2026-10-30 08:04 UTC",
-    "news_count": 0,
+    "collected": "2026-10-30 09:38 UTC",
+    "news_count": 2,
     "tone": null,
     "volume": [],
     "hiring_total": 0,
@@ -1237,7 +1236,7 @@
       }
     ],
     "note": "Filings are available only for companies listed in the US. Technip Energies, Saipem, Chiyoda, JGC and others are not covered here. QatarEnergy is state-owned and publishes no full accounts.",
-    "collected": "2026-10-30 08:05 UTC"
+    "collected": "2026-10-30 09:38 UTC"
   },
   "areas": {
     "ras-laffan": {

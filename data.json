@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-30 09:47 UTC",
+  "generated_utc": "2026-10-30 11:20 UTC",
   "period": {
     "from": "2026-10-25",
     "to": "2026-10-25"
@@ -11,8 +11,8 @@
     "note": "thermal activity confirmed by LNG loadings — two independent sources agree",
     "signals": {
       "thermal": true,
-      "hot_trains": 4,
-      "frp_sum": 0,
+      "hot_trains": 5,
+      "frp_sum": 602.5,
       "lng_loadings": null,
       "liquid_loadings": null,
       "sulphur_loadings": null,
@@ -35,9 +35,9 @@
     ]
   },
   "capacity": {
-    "producing_mtpa": 51.2,
-    "down_mtpa": 25.6,
-    "utilisation_pct": 66.7
+    "producing_mtpa": 64.0,
+    "down_mtpa": 12.8,
+    "utilisation_pct": 83.3
   },
   "trains": [
     {
@@ -60,10 +60,11 @@
       "venture": "QE LNG North",
       "mtpa": 12.8,
       "known_status": "",
-      "status": "IDLE",
-      "confidence": "medium",
+      "status": "PRODUCING",
+      "confidence": "high",
       "evidence": [
-        "no heat, site geometry unchanged"
+        "VIIRS thermal hits: 29",
+        "LNG carrier alongside on the image: JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
       ],
       "hot_pixels": 0,
       "dnbr": 0.069,
@@ -79,6 +80,7 @@
       "confidence": "high",
       "evidence": [
         "hot SWIR pixels: 664",
+        "VIIRS thermal hits: 42",
         "LNG carrier alongside on the image: JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
       ],
       "hot_pixels": 664,
@@ -95,6 +97,7 @@
       "confidence": "high",
       "evidence": [
         "hot SWIR pixels: 149",
+        "VIIRS thermal hits: 67",
         "LNG carrier alongside on the image: JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
       ],
       "hot_pixels": 149,
@@ -111,6 +114,7 @@
       "confidence": "high",
       "evidence": [
         "hot SWIR pixels: 344",
+        "VIIRS thermal hits: 40",
         "LNG carrier alongside on the image: JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
       ],
       "hot_pixels": 344,
@@ -127,6 +131,7 @@
       "confidence": "high",
       "evidence": [
         "hot SWIR pixels: 662",
+        "VIIRS thermal hits: 50",
         "LNG carrier alongside on the image: JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
       ],
       "hot_pixels": 662,
@@ -355,7 +360,32 @@
       "changed_down": 0.54
     }
   ],
-  "firms_trend": [],
+  "firms_trend": [
+    [
+      "2026-10-25",
+      184.1
+    ],
+    [
+      "2026-10-26",
+      46.0
+    ],
+    [
+      "2026-10-27",
+      151.52000000000004
+    ],
+    [
+      "2026-10-28",
+      97.39999999999999
+    ],
+    [
+      "2026-10-29",
+      109.85000000000001
+    ],
+    [
+      "2026-10-30",
+      13.59
+    ]
+  ],
   "shipping": {
     "lng_loadings": 0,
     "liquid_loadings": 0,
@@ -377,7 +407,7 @@
           "code": "vessel (2489 m2 of bright deck)",
           "ai": "no vessel",
           "ai_confidence": "medium",
-          "ai_note": "The two jetties and the curved quay edge are visible, but the water between and beside them is empty with no hull, superstructure, or wake.",
+          "ai_note": "Two lit jetties extend from the curved quay into dark water, but no hull, superstructure, or ship outline is visible between them.",
           "provider": "claude",
           "agree": false,
           "ai_direction": "unknown",
@@ -389,7 +419,7 @@
           "code": "vessel (1720 m2 of bright deck)",
           "ai": "vessel: unclear, direction unknown",
           "ai_confidence": "low",
-          "ai_note": "An elongated orange-brown object with a pale superstructure sits at the top-right berth, possibly a moored vessel, but the resolution doesn't allow a confident ",
+          "ai_note": "An elongated orange-and-white object in the water at the upper right may be a moored vessel, but the image is too coarse to confirm its type or berth, and no lo",
           "provider": "claude",
           "agree": true,
           "ai_direction": "unknown",
@@ -399,12 +429,12 @@
           "object": "JET-1",
           "kind": "berth",
           "code": "no vessel",
-          "ai": "vessel: unclear, direction unknown",
-          "ai_confidence": "medium",
-          "ai_note": "An elongated, greenish-grey hull lies alongside the angled jetty on its east side, but its type is not clear at this resolution.",
+          "ai": "no vessel",
+          "ai_confidence": null,
+          "ai_note": "",
           "provider": "claude",
-          "agree": false,
-          "ai_direction": "unknown",
+          "agree": null,
+          "ai_direction": null,
           "ai_direction_clues": []
         },
         {
@@ -413,7 +443,7 @@
           "code": "no vessel",
           "ai": "no vessel",
           "ai_confidence": "medium",
-          "ai_note": "Two narrow jetties extend into dark water along a bright quay edge, but no ship or hull is visible at either berth.",
+          "ai_note": "Two finger jetties extend from a diagonal causeway into dark water with no ship, hull, or superstructure visible at either berth.",
           "provider": "claude",
           "agree": true,
           "ai_direction": "unknown",
@@ -425,7 +455,7 @@
           "code": "no vessel",
           "ai": "no vessel",
           "ai_confidence": "medium",
-          "ai_note": "The crop shows only a curved causeway, a jetty arm and dark water, with no hull, superstructure or mooring lines visible.",
+          "ai_note": "Only curved quay or causeway edges and dark water are visible, with no hull, superstructure, or moored ship in the frame.",
           "provider": "claude",
           "agree": true,
           "ai_direction": "unknown",
@@ -437,7 +467,7 @@
           "code": "no vessel",
           "ai": "no vessel",
           "ai_confidence": "medium",
-          "ai_note": "The jetty and its piles are visible, but no hull lies alongside; the only dark streak is in open water away from the structure.",
+          "ai_note": "The jetty and its mooring dolphins are visible, but no hull lies alongside; the only dark streak is in open water to the upper left.",
           "provider": "claude",
           "agree": true,
           "ai_direction": "unknown",
@@ -449,10 +479,10 @@
         "claude"
       ],
       "agreed": 4,
-      "disputed": 2,
-      "note": "проверено объектов: 6, совпало 4, разошлось 2"
+      "disputed": 1,
+      "note": "проверено объектов: 6, совпало 4, разошлось 1"
     },
-    "index": 13.7,
+    "index": 19.2,
     "level": {
       "label": "low",
       "status": "good",
@@ -468,13 +498,13 @@
       "idle": {
         "label": "Idle capacity",
         "weight": 0.25,
-        "score": 33.3,
+        "score": 16.7,
         "why": "share of capacity out of service — the volume of restoration work ahead"
       },
       "press": {
         "label": "Press",
         "weight": 0.2,
-        "score": 1.7,
+        "score": 50.0,
         "why": "tender and award mentions, tone of coverage"
       },
       "mobilisation": {
@@ -489,8 +519,8 @@
     "note": "all components available"
   },
   "intel": {
-    "collected": "2026-10-30 09:38 UTC",
-    "news_count": 2,
+    "collected": "2026-10-30 11:15 UTC",
+    "news_count": 60,
     "tone": null,
     "volume": [],
     "hiring_total": 0,
@@ -1236,7 +1266,7 @@
       }
     ],
     "note": "Filings are available only for companies listed in the US. Technip Energies, Saipem, Chiyoda, JGC and others are not covered here. QatarEnergy is state-owned and publishes no full accounts.",
-    "collected": "2026-10-30 09:38 UTC"
+    "collected": "2026-10-30 11:15 UTC"
   },
   "areas": {
     "ras-laffan": {

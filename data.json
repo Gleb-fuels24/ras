@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-10-30 11:20 UTC",
+  "generated_utc": "2026-11-03 06:57 UTC",
   "period": {
-    "from": "2026-10-25",
-    "to": "2026-10-25"
+    "from": "2026-11-01",
+    "to": "2026-11-01"
   },
   "complex": {
     "verdict": "PRODUCING_EXPORTING",
@@ -12,25 +12,28 @@
     "signals": {
       "thermal": true,
       "hot_trains": 5,
-      "frp_sum": 602.5,
+      "frp_sum": 344.0,
       "lng_loadings": null,
       "liquid_loadings": null,
       "sulphur_loadings": null,
       "drycargo_calls": null,
       "project_cargo_calls": null,
       "export_pct_of_norm": null,
-      "lng_alongside_img": 1,
+      "lng_alongside_img": 2,
       "liquid_alongside_img": 0,
       "drycargo_alongside_img": 1,
       "berths_unchecked": 0,
       "yards_filling": [
         "Laydown yard"
       ],
-      "yards_clearing": []
+      "yards_clearing": [
+        "Pearl GTL",
+        "West plants"
+      ]
     },
     "caveats": [
       "AIS collected no vessels at all — its figures are unknown, not zero. The verdict below rests on imagery.",
-      "LNG carrier alongside on the image of 2026-10-25: JET-2. A vessel at the berth proves it came to load; it does not prove it sailed loaded.",
+      "LNG carrier alongside on the image of 2026-11-01: JET-1, JET-2. A vessel at the berth proves it came to load; it does not prove it sailed loaded.",
       "Vessel at a dry cargo berth (QUAY-E) and the laydown area is filling (Laydown yard) — together that reads as equipment arriving."
     ]
   },
@@ -48,12 +51,12 @@
       "status": "REBUILDING",
       "confidence": "low",
       "evidence": [
-        "58% of the area changed, no burn signature"
+        "60% of the area changed, no burn signature"
       ],
       "hot_pixels": 0,
-      "dnbr": 0.076,
-      "changed": 0.579,
-      "snapshot_date": "2026-10-25"
+      "dnbr": 0.047,
+      "changed": 0.596,
+      "snapshot_date": "2026-11-01"
     },
     {
       "name": "P-N1",
@@ -63,13 +66,13 @@
       "status": "PRODUCING",
       "confidence": "high",
       "evidence": [
-        "VIIRS thermal hits: 29",
-        "LNG carrier alongside on the image: JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
+        "VIIRS thermal hits: 16",
+        "LNG carrier alongside on the image: JET-1, JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
       ],
       "hot_pixels": 0,
-      "dnbr": 0.069,
-      "changed": 0.14,
-      "snapshot_date": "2026-10-25"
+      "dnbr": 0.037,
+      "changed": 0.433,
+      "snapshot_date": "2026-11-01"
     },
     {
       "name": "P-N2",
@@ -79,14 +82,14 @@
       "status": "PRODUCING",
       "confidence": "high",
       "evidence": [
-        "hot SWIR pixels: 664",
-        "VIIRS thermal hits: 42",
-        "LNG carrier alongside on the image: JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
+        "hot SWIR pixels: 388",
+        "VIIRS thermal hits: 20",
+        "LNG carrier alongside on the image: JET-1, JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
       ],
-      "hot_pixels": 664,
-      "dnbr": 0.061,
-      "changed": 0.155,
-      "snapshot_date": "2026-10-25"
+      "hot_pixels": 388,
+      "dnbr": -0.032,
+      "changed": 0.713,
+      "snapshot_date": "2026-11-01"
     },
     {
       "name": "P-M1",
@@ -96,14 +99,14 @@
       "status": "PRODUCING",
       "confidence": "high",
       "evidence": [
-        "hot SWIR pixels: 149",
-        "VIIRS thermal hits: 67",
-        "LNG carrier alongside on the image: JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
+        "hot SWIR pixels: 75",
+        "VIIRS thermal hits: 30",
+        "LNG carrier alongside on the image: JET-1, JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
       ],
-      "hot_pixels": 149,
-      "dnbr": 0.052,
-      "changed": 0.15,
-      "snapshot_date": "2026-10-25"
+      "hot_pixels": 75,
+      "dnbr": 0.011,
+      "changed": 0.316,
+      "snapshot_date": "2026-11-01"
     },
     {
       "name": "P-S1",
@@ -113,14 +116,14 @@
       "status": "PRODUCING",
       "confidence": "high",
       "evidence": [
-        "hot SWIR pixels: 344",
-        "VIIRS thermal hits: 40",
-        "LNG carrier alongside on the image: JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
+        "hot SWIR pixels: 314",
+        "VIIRS thermal hits: 24",
+        "LNG carrier alongside on the image: JET-1, JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
       ],
-      "hot_pixels": 344,
-      "dnbr": 0.044,
-      "changed": 0.15,
-      "snapshot_date": "2026-10-25"
+      "hot_pixels": 314,
+      "dnbr": -0.018,
+      "changed": 0.401,
+      "snapshot_date": "2026-11-01"
     },
     {
       "name": "P-S2",
@@ -130,14 +133,14 @@
       "status": "PRODUCING",
       "confidence": "high",
       "evidence": [
-        "hot SWIR pixels: 662",
-        "VIIRS thermal hits: 50",
-        "LNG carrier alongside on the image: JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
+        "hot SWIR pixels: 580",
+        "VIIRS thermal hits: 19",
+        "LNG carrier alongside on the image: JET-1, JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
       ],
-      "hot_pixels": 662,
-      "dnbr": 0.026,
-      "changed": 0.085,
-      "snapshot_date": "2026-10-25"
+      "hot_pixels": 580,
+      "dnbr": -0.005,
+      "changed": 0.093,
+      "snapshot_date": "2026-11-01"
     }
   ],
   "berths": [
@@ -145,45 +148,50 @@
       "berth": "JET-1",
       "kind": "lng",
       "venture": "North mole",
-      "vessel_px": 343,
+      "vessel_px": 330,
       "vessel_frac": 0.007,
-      "occupied": false,
-      "snapshot_date": "2026-10-25",
+      "occupied": true,
+      "snapshot_date": "2026-11-01",
       "baseline_used": true,
-      "vessels": [],
-      "vessel_count": 0,
-      "vessel_area_m2": 0
+      "vessels": [
+        {
+          "length_m": 248,
+          "area_m2": 7559
+        }
+      ],
+      "vessel_count": 1,
+      "vessel_area_m2": 7559
     },
     {
       "berth": "JET-2",
       "kind": "lng",
       "venture": "North mole",
-      "vessel_px": 204,
+      "vessel_px": 193,
       "vessel_frac": 0.004,
       "occupied": true,
-      "snapshot_date": "2026-10-25",
+      "snapshot_date": "2026-11-01",
       "baseline_used": true,
       "vessels": [
         {
-          "length_m": 127,
-          "area_m2": 1348
+          "length_m": 137,
+          "area_m2": 1400
         },
         {
           "length_m": 106,
-          "area_m2": 1141
+          "area_m2": 1167
         }
       ],
       "vessel_count": 2,
-      "vessel_area_m2": 2489
+      "vessel_area_m2": 2567
     },
     {
       "berth": "JET-3",
       "kind": "lng",
       "venture": "North mole",
-      "vessel_px": 34,
+      "vessel_px": 26,
       "vessel_frac": 0.001,
       "occupied": false,
-      "snapshot_date": "2026-10-25",
+      "snapshot_date": "2026-11-01",
       "baseline_used": true,
       "vessels": [],
       "vessel_count": 0,
@@ -193,10 +201,10 @@
       "berth": "JET-W",
       "kind": "liquid",
       "venture": "West mole",
-      "vessel_px": 81,
+      "vessel_px": 76,
       "vessel_frac": 0.003,
       "occupied": false,
-      "snapshot_date": "2026-10-25",
+      "snapshot_date": "2026-11-01",
       "baseline_used": true,
       "vessels": [],
       "vessel_count": 0,
@@ -206,10 +214,10 @@
       "berth": "BAS-E",
       "kind": "liquid",
       "venture": "Inner basin",
-      "vessel_px": 17,
-      "vessel_frac": 0.0,
+      "vessel_px": 445,
+      "vessel_frac": 0.012,
       "occupied": false,
-      "snapshot_date": "2026-10-25",
+      "snapshot_date": "2026-11-01",
       "baseline_used": true,
       "vessels": [],
       "vessel_count": 0,
@@ -219,10 +227,10 @@
       "berth": "BAS-S",
       "kind": "liquid",
       "venture": "Inner basin",
-      "vessel_px": 2,
+      "vessel_px": 3,
       "vessel_frac": 0.0,
       "occupied": false,
-      "snapshot_date": "2026-10-25",
+      "snapshot_date": "2026-11-01",
       "baseline_used": true,
       "vessels": [],
       "vessel_count": 0,
@@ -232,10 +240,10 @@
       "berth": "PIER-NE",
       "kind": "liquid",
       "venture": "North-east pier",
-      "vessel_px": 45,
+      "vessel_px": 47,
       "vessel_frac": 0.001,
       "occupied": false,
-      "snapshot_date": "2026-10-25",
+      "snapshot_date": "2026-11-01",
       "baseline_used": true,
       "vessels": [],
       "vessel_count": 0,
@@ -245,10 +253,10 @@
       "berth": "PIER-S",
       "kind": "liquid",
       "venture": "South pier",
-      "vessel_px": 4,
+      "vessel_px": 0,
       "vessel_frac": 0.0,
       "occupied": false,
-      "snapshot_date": "2026-10-25",
+      "snapshot_date": "2026-11-01",
       "baseline_used": true,
       "vessels": [],
       "vessel_count": 0,
@@ -258,28 +266,28 @@
       "berth": "QUAY-E",
       "kind": "drycargo",
       "venture": "construction",
-      "vessel_px": 1826,
-      "vessel_frac": 0.042,
+      "vessel_px": 1604,
+      "vessel_frac": 0.036,
       "occupied": true,
-      "snapshot_date": "2026-10-25",
+      "snapshot_date": "2026-11-01",
       "baseline_used": true,
       "vessels": [
         {
-          "length_m": 102,
-          "area_m2": 1720
+          "length_m": 80,
+          "area_m2": 1559
         }
       ],
       "vessel_count": 1,
-      "vessel_area_m2": 1720
+      "vessel_area_m2": 1559
     },
     {
       "berth": "QUAY-NE",
       "kind": "drycargo",
       "venture": "construction",
-      "vessel_px": 25,
-      "vessel_frac": 0.001,
+      "vessel_px": 20,
+      "vessel_frac": 0.0,
       "occupied": false,
-      "snapshot_date": "2026-10-25",
+      "snapshot_date": "2026-11-01",
       "baseline_used": true,
       "vessels": [],
       "vessel_count": 0,
@@ -291,58 +299,58 @@
       "site": "Tank farm",
       "note": "tank farm — control site for the algorithm",
       "control": true,
-      "changed": 0.807,
-      "hot_pixels": 6,
+      "changed": 0.826,
+      "hot_pixels": 0,
       "construction_signal": true,
-      "snapshot_date": "2026-10-25",
+      "snapshot_date": "2026-11-01",
       "direction": null,
-      "changed_up": 0.45,
-      "changed_down": 0.51
+      "changed_up": 0.44,
+      "changed_down": 0.52
     },
     {
       "site": "Tank farm N",
       "note": "northern tank farm — control site",
       "control": true,
-      "changed": 0.327,
-      "hot_pixels": 215,
+      "changed": 0.256,
+      "hot_pixels": 306,
       "construction_signal": true,
-      "snapshot_date": "2026-10-25",
+      "snapshot_date": "2026-11-01",
       "direction": null,
-      "changed_up": 0.56,
-      "changed_down": 0.41
+      "changed_up": 0.43,
+      "changed_down": 0.55
     },
     {
       "site": "Laydown yard",
       "note": "module laydown yard — direct indicator of construction",
       "control": false,
-      "changed": 0.413,
+      "changed": 0.439,
       "hot_pixels": 0,
       "construction_signal": true,
-      "snapshot_date": "2026-10-25",
+      "snapshot_date": "2026-11-01",
       "direction": "filling",
-      "changed_up": 0.8,
-      "changed_down": 0.2
+      "changed_up": 0.62,
+      "changed_down": 0.37
     },
     {
       "site": "Pearl GTL",
       "note": "probably the GTL plant, unverified",
       "control": false,
-      "changed": 0.171,
-      "hot_pixels": 408,
+      "changed": 0.789,
+      "hot_pixels": 310,
       "construction_signal": false,
-      "snapshot_date": "2026-10-25",
-      "direction": null,
-      "changed_up": 0.41,
-      "changed_down": 0.57
+      "snapshot_date": "2026-11-01",
+      "direction": "clearing",
+      "changed_up": 0.32,
+      "changed_down": 0.67
     },
     {
       "site": "Barzan",
       "note": "mostly open ground on the image — zone unconfirmed",
       "control": false,
-      "changed": 0.184,
-      "hot_pixels": 107,
-      "construction_signal": false,
-      "snapshot_date": "2026-10-25",
+      "changed": 0.209,
+      "hot_pixels": 65,
+      "construction_signal": true,
+      "snapshot_date": "2026-11-01",
       "direction": null,
       "changed_up": 0.41,
       "changed_down": 0.56
@@ -351,39 +359,23 @@
       "site": "West plants",
       "note": "large built-up area west of the LNG trains, operator not identified",
       "control": false,
-      "changed": 0.388,
+      "changed": 0.511,
       "hot_pixels": 0,
-      "construction_signal": true,
-      "snapshot_date": "2026-10-25",
-      "direction": null,
-      "changed_up": 0.42,
-      "changed_down": 0.54
+      "construction_signal": false,
+      "snapshot_date": "2026-11-01",
+      "direction": "clearing",
+      "changed_up": 0.37,
+      "changed_down": 0.59
     }
   ],
   "firms_trend": [
     [
-      "2026-10-25",
-      184.1
+      "2026-11-01",
+      224.78000000000003
     ],
     [
-      "2026-10-26",
-      46.0
-    ],
-    [
-      "2026-10-27",
-      151.52000000000004
-    ],
-    [
-      "2026-10-28",
-      97.39999999999999
-    ],
-    [
-      "2026-10-29",
-      109.85000000000001
-    ],
-    [
-      "2026-10-30",
-      13.59
+      "2026-11-02",
+      119.21
     ]
   ],
   "shipping": {
@@ -402,12 +394,24 @@
       "enabled": true,
       "checks": [
         {
+          "object": "JET-1",
+          "kind": "berth",
+          "code": "vessel (7559 m2 of bright deck)",
+          "ai": "no vessel",
+          "ai_confidence": "low",
+          "ai_note": "The T-shaped and linear quays show no hull, superstructure, or mooring lines; only a small green object at the lower edge of the image is ambiguous and could be",
+          "provider": "claude",
+          "agree": false,
+          "ai_direction": "unknown",
+          "ai_direction_clues": []
+        },
+        {
           "object": "JET-2",
           "kind": "berth",
-          "code": "vessel (2489 m2 of bright deck)",
+          "code": "vessel (2567 m2 of bright deck)",
           "ai": "no vessel",
           "ai_confidence": "medium",
-          "ai_note": "Two lit jetties extend from the curved quay into dark water, but no hull, superstructure, or ship outline is visible between them.",
+          "ai_note": "The image shows a curved breakwater or quay with two angled jetty arms and dark water between them, with no ship or hull visible.",
           "provider": "claude",
           "agree": false,
           "ai_direction": "unknown",
@@ -416,25 +420,13 @@
         {
           "object": "QUAY-E",
           "kind": "berth",
-          "code": "vessel (1720 m2 of bright deck)",
-          "ai": "vessel: unclear, direction unknown",
-          "ai_confidence": "low",
-          "ai_note": "An elongated orange-and-white object in the water at the upper right may be a moored vessel, but the image is too coarse to confirm its type or berth, and no lo",
-          "provider": "claude",
-          "agree": true,
-          "ai_direction": "unknown",
-          "ai_direction_clues": []
-        },
-        {
-          "object": "JET-1",
-          "kind": "berth",
-          "code": "no vessel",
+          "code": "vessel (1559 m2 of bright deck)",
           "ai": "no vessel",
-          "ai_confidence": null,
-          "ai_note": "",
+          "ai_confidence": "low",
+          "ai_note": "No clearly identifiable ship is moored along the quay; an orange and green rectangular object at the top right could be a vessel or a structure, but it is too a",
           "provider": "claude",
-          "agree": null,
-          "ai_direction": null,
+          "agree": false,
+          "ai_direction": "unknown",
           "ai_direction_clues": []
         },
         {
@@ -443,7 +435,7 @@
           "code": "no vessel",
           "ai": "no vessel",
           "ai_confidence": "medium",
-          "ai_note": "Two finger jetties extend from a diagonal causeway into dark water with no ship, hull, or superstructure visible at either berth.",
+          "ai_note": "Two finger piers and a long bright causeway or quay edge are visible, but no hull, superstructure, or ship outline appears against the dark water.",
           "provider": "claude",
           "agree": true,
           "ai_direction": "unknown",
@@ -453,11 +445,11 @@
           "object": "JET-W",
           "kind": "berth",
           "code": "no vessel",
-          "ai": "no vessel",
-          "ai_confidence": "medium",
-          "ai_note": "Only curved quay or causeway edges and dark water are visible, with no hull, superstructure, or moored ship in the frame.",
+          "ai": "vessel: unclear, direction unknown",
+          "ai_confidence": "low",
+          "ai_note": "An elongated greenish object lies alongside the narrow pier arm at lower centre-right, but its type is not clear and no loader, stockpile, or derrick is visible",
           "provider": "claude",
-          "agree": true,
+          "agree": false,
           "ai_direction": "unknown",
           "ai_direction_clues": []
         },
@@ -467,7 +459,7 @@
           "code": "no vessel",
           "ai": "no vessel",
           "ai_confidence": "medium",
-          "ai_note": "The jetty and its mooring dolphins are visible, but no hull lies alongside; the only dark streak is in open water to the upper left.",
+          "ai_note": "The image shows only jetty trestles, pipe racks and a small red object over dark water, with no ship hull or superstructure visible.",
           "provider": "claude",
           "agree": true,
           "ai_direction": "unknown",
@@ -478,11 +470,11 @@
       "providers": [
         "claude"
       ],
-      "agreed": 4,
-      "disputed": 1,
-      "note": "проверено объектов: 6, совпало 4, разошлось 1"
+      "agreed": 2,
+      "disputed": 4,
+      "note": "проверено объектов: 6, совпало 2, разошлось 4"
     },
-    "index": 19.2,
+    "index": 15.0,
     "level": {
       "label": "low",
       "status": "good",
@@ -504,7 +496,7 @@
       "press": {
         "label": "Press",
         "weight": 0.2,
-        "score": 50.0,
+        "score": 29.2,
         "why": "tender and award mentions, tone of coverage"
       },
       "mobilisation": {
@@ -519,8 +511,8 @@
     "note": "all components available"
   },
   "intel": {
-    "collected": "2026-10-30 11:15 UTC",
-    "news_count": 60,
+    "collected": "2026-11-03 06:54 UTC",
+    "news_count": 35,
     "tone": null,
     "volume": [],
     "hiring_total": 0,
@@ -1266,7 +1258,7 @@
       }
     ],
     "note": "Filings are available only for companies listed in the US. Technip Energies, Saipem, Chiyoda, JGC and others are not covered here. QatarEnergy is state-owned and publishes no full accounts.",
-    "collected": "2026-10-30 11:15 UTC"
+    "collected": "2026-11-03 06:54 UTC"
   },
   "areas": {
     "ras-laffan": {
@@ -1279,17 +1271,20 @@
         51.665,
         25.97
       ],
-      "date": "2026-10-25",
-      "age_days": 5,
-      "cloud": 0.1,
-      "prev_date": "2026-10-20",
-      "count": 0,
+      "date": "2026-11-01",
+      "age_days": 2,
+      "cloud": 1.0,
+      "prev_date": "2026-10-30",
+      "newer_cloudy": [],
+      "typical_gap_days": 4,
+      "next_pass_estimate": "2026-11-05",
+      "count": 2,
       "large_count": 0,
       "fixed_count": 0,
-      "raw_count": 0,
+      "raw_count": 2,
       "px_size_m": 9.0,
       "reliable_min_len_m": 36,
-      "image": "data\\chips\\area_ras-laffan_2026-10-25_web.jpg",
+      "image": "data\\chips\\area_ras-laffan_2026-11-01_web.jpg",
       "error": null,
       "warning": null
     },
@@ -1304,9 +1299,17 @@
         26.95
       ],
       "date": "2026-10-26",
-      "age_days": 4,
+      "age_days": 8,
       "cloud": 14.9,
       "prev_date": "2026-10-24",
+      "newer_cloudy": [
+        {
+          "date": "2026-10-29",
+          "cloud": 48.4
+        }
+      ],
+      "typical_gap_days": 2,
+      "next_pass_estimate": "2026-10-28",
       "count": 8,
       "large_count": 8,
       "fixed_count": 0,
@@ -1327,17 +1330,20 @@
         43.7,
         12.95
       ],
-      "date": "2026-10-28",
-      "age_days": 2,
+      "date": "2026-10-31",
+      "age_days": 3,
       "cloud": 0.1,
-      "prev_date": "2026-10-26",
-      "count": 1,
-      "large_count": 1,
+      "prev_date": "2026-10-28",
+      "newer_cloudy": [],
+      "typical_gap_days": 3,
+      "next_pass_estimate": "2026-11-03",
+      "count": 25,
+      "large_count": 25,
       "fixed_count": 0,
-      "raw_count": 1,
+      "raw_count": 25,
       "px_size_m": 32.4,
       "reliable_min_len_m": 130,
-      "image": "data\\chips\\area_bab-el-mandeb_2026-10-28_web.jpg",
+      "image": "data\\chips\\area_bab-el-mandeb_2026-10-31_web.jpg",
       "error": null,
       "warning": null
     }

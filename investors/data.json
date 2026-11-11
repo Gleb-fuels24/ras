@@ -1,0 +1,1509 @@
+{
+  "generated_utc": "2026-11-11 08:23 UTC",
+  "period": {
+    "from": "2026-11-04",
+    "to": "2026-11-04"
+  },
+  "complex": {
+    "verdict": "PRODUCING_EXPORTING",
+    "label": "producing and exporting",
+    "status": "good",
+    "note": "thermal activity confirmed by LNG loadings — two independent sources agree",
+    "signals": {
+      "thermal": true,
+      "hot_trains": 5,
+      "frp_sum": 2612.8,
+      "lng_loadings": null,
+      "liquid_loadings": null,
+      "sulphur_loadings": null,
+      "drycargo_calls": null,
+      "project_cargo_calls": null,
+      "export_pct_of_norm": null,
+      "lng_alongside_img": 2,
+      "liquid_alongside_img": 0,
+      "drycargo_alongside_img": 1,
+      "berths_unchecked": 0,
+      "yards_filling": [
+        "Laydown yard"
+      ],
+      "yards_clearing": []
+    },
+    "caveats": [
+      "AIS collected no vessels at all — its figures are unknown, not zero. The verdict below rests on imagery.",
+      "LNG carrier alongside on the image of 2026-11-04: JET-1, JET-2. A vessel at the berth proves it came to load; it does not prove it sailed loaded.",
+      "Vessel at a dry cargo berth (QUAY-E) and the laydown area is filling (Laydown yard) — together that reads as equipment arriving."
+    ]
+  },
+  "capacity": {
+    "producing_mtpa": 64.0,
+    "down_mtpa": 12.8,
+    "utilisation_pct": 83.3
+  },
+  "trains": [
+    {
+      "name": "P-W1",
+      "venture": "West (unverified)",
+      "mtpa": 12.8,
+      "known_status": "",
+      "status": "REBUILDING",
+      "confidence": "low",
+      "evidence": [
+        "64% of the area changed, no burn signature"
+      ],
+      "hot_pixels": 0,
+      "dnbr": 0.073,
+      "changed": 0.644,
+      "snapshot_date": "2026-11-04"
+    },
+    {
+      "name": "P-N1",
+      "venture": "QE LNG North",
+      "mtpa": 12.8,
+      "known_status": "",
+      "status": "PRODUCING",
+      "confidence": "high",
+      "evidence": [
+        "VIIRS thermal hits: 39",
+        "LNG carrier alongside on the image: JET-1, JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
+      ],
+      "hot_pixels": 0,
+      "dnbr": 0.064,
+      "changed": 0.162,
+      "snapshot_date": "2026-11-04"
+    },
+    {
+      "name": "P-N2",
+      "venture": "QE LNG North",
+      "mtpa": 12.8,
+      "known_status": "",
+      "status": "PRODUCING",
+      "confidence": "high",
+      "evidence": [
+        "hot SWIR pixels: 743",
+        "VIIRS thermal hits: 64",
+        "LNG carrier alongside on the image: JET-1, JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
+      ],
+      "hot_pixels": 743,
+      "dnbr": 0.054,
+      "changed": 0.188,
+      "snapshot_date": "2026-11-04"
+    },
+    {
+      "name": "P-M1",
+      "venture": "Complex centre",
+      "mtpa": 12.8,
+      "known_status": "",
+      "status": "PRODUCING",
+      "confidence": "high",
+      "evidence": [
+        "hot SWIR pixels: 162",
+        "VIIRS thermal hits: 90",
+        "LNG carrier alongside on the image: JET-1, JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
+      ],
+      "hot_pixels": 162,
+      "dnbr": 0.058,
+      "changed": 0.207,
+      "snapshot_date": "2026-11-04"
+    },
+    {
+      "name": "P-S1",
+      "venture": "QE LNG South",
+      "mtpa": 12.8,
+      "known_status": "",
+      "status": "PRODUCING",
+      "confidence": "high",
+      "evidence": [
+        "hot SWIR pixels: 454",
+        "VIIRS thermal hits: 70",
+        "LNG carrier alongside on the image: JET-1, JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
+      ],
+      "hot_pixels": 454,
+      "dnbr": 0.042,
+      "changed": 0.187,
+      "snapshot_date": "2026-11-04"
+    },
+    {
+      "name": "P-S2",
+      "venture": "QE LNG South",
+      "mtpa": 12.8,
+      "known_status": "",
+      "status": "PRODUCING",
+      "confidence": "high",
+      "evidence": [
+        "hot SWIR pixels: 692",
+        "VIIRS thermal hits: 72",
+        "LNG carrier alongside on the image: JET-1, JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
+      ],
+      "hot_pixels": 692,
+      "dnbr": 0.034,
+      "changed": 0.137,
+      "snapshot_date": "2026-11-04"
+    }
+  ],
+  "berths": [
+    {
+      "berth": "JET-1",
+      "kind": "lng",
+      "venture": "North mole",
+      "vessel_px": 777,
+      "vessel_frac": 0.017,
+      "occupied": true,
+      "snapshot_date": "2026-11-04",
+      "baseline_used": true,
+      "method": "reference",
+      "norm_passes": 0,
+      "hull_m": 232,
+      "hull_lengths_m": [
+        232
+      ],
+      "motion_found": 0,
+      "motion_blind_below_kmh": null,
+      "vessels": [
+        {
+          "length_m": 232,
+          "area_m2": 8049
+        }
+      ],
+      "vessel_count": 1,
+      "under_way_count": 0,
+      "hull_under_way_m": 0,
+      "vessel_area_m2": 8049
+    },
+    {
+      "berth": "JET-2",
+      "kind": "lng",
+      "venture": "North mole",
+      "vessel_px": 211,
+      "vessel_frac": 0.004,
+      "occupied": true,
+      "snapshot_date": "2026-11-04",
+      "baseline_used": true,
+      "method": "reference",
+      "norm_passes": 0,
+      "hull_m": 243,
+      "hull_lengths_m": [
+        137,
+        106
+      ],
+      "motion_found": 0,
+      "motion_blind_below_kmh": 17.9,
+      "vessels": [
+        {
+          "length_m": 137,
+          "area_m2": 1296
+        },
+        {
+          "length_m": 106,
+          "area_m2": 1270
+        }
+      ],
+      "vessel_count": 2,
+      "under_way_count": 0,
+      "hull_under_way_m": 0,
+      "vessel_area_m2": 2566
+    },
+    {
+      "berth": "JET-3",
+      "kind": "lng",
+      "venture": "North mole",
+      "vessel_px": 39,
+      "vessel_frac": 0.001,
+      "occupied": false,
+      "snapshot_date": "2026-11-04",
+      "baseline_used": true,
+      "method": "reference",
+      "norm_passes": 0,
+      "hull_m": 0,
+      "hull_lengths_m": [],
+      "motion_found": 0,
+      "motion_blind_below_kmh": null,
+      "vessels": [],
+      "vessel_count": 0,
+      "under_way_count": 0,
+      "hull_under_way_m": 0,
+      "vessel_area_m2": 0
+    },
+    {
+      "berth": "JET-W",
+      "kind": "liquid",
+      "venture": "West mole",
+      "vessel_px": 47,
+      "vessel_frac": 0.002,
+      "occupied": false,
+      "snapshot_date": "2026-11-04",
+      "baseline_used": true,
+      "method": "reference",
+      "norm_passes": 0,
+      "hull_m": 0,
+      "hull_lengths_m": [],
+      "motion_found": 0,
+      "motion_blind_below_kmh": null,
+      "vessels": [],
+      "vessel_count": 0,
+      "under_way_count": 0,
+      "hull_under_way_m": 0,
+      "vessel_area_m2": 0
+    },
+    {
+      "berth": "BAS-E",
+      "kind": "liquid",
+      "venture": "Inner basin",
+      "vessel_px": 191,
+      "vessel_frac": 0.005,
+      "occupied": false,
+      "snapshot_date": "2026-11-04",
+      "baseline_used": true,
+      "method": "reference",
+      "norm_passes": 0,
+      "hull_m": 0,
+      "hull_lengths_m": [],
+      "motion_found": 0,
+      "motion_blind_below_kmh": null,
+      "vessels": [],
+      "vessel_count": 0,
+      "under_way_count": 0,
+      "hull_under_way_m": 0,
+      "vessel_area_m2": 0
+    },
+    {
+      "berth": "BAS-S",
+      "kind": "liquid",
+      "venture": "Inner basin",
+      "vessel_px": 2,
+      "vessel_frac": 0.0,
+      "occupied": false,
+      "snapshot_date": "2026-11-04",
+      "baseline_used": true,
+      "method": "reference",
+      "norm_passes": 0,
+      "hull_m": 0,
+      "hull_lengths_m": [],
+      "motion_found": 0,
+      "motion_blind_below_kmh": 18.0,
+      "vessels": [],
+      "vessel_count": 0,
+      "under_way_count": 0,
+      "hull_under_way_m": 0,
+      "vessel_area_m2": 0
+    },
+    {
+      "berth": "PIER-NE",
+      "kind": "liquid",
+      "venture": "North-east pier",
+      "vessel_px": 0,
+      "vessel_frac": 0.0,
+      "occupied": false,
+      "snapshot_date": "2026-11-04",
+      "baseline_used": true,
+      "method": "reference",
+      "norm_passes": 0,
+      "hull_m": 0,
+      "hull_lengths_m": [],
+      "motion_found": 0,
+      "motion_blind_below_kmh": null,
+      "vessels": [],
+      "vessel_count": 0,
+      "under_way_count": 0,
+      "hull_under_way_m": 0,
+      "vessel_area_m2": 0
+    },
+    {
+      "berth": "PIER-S",
+      "kind": "liquid",
+      "venture": "South pier",
+      "vessel_px": 4,
+      "vessel_frac": 0.0,
+      "occupied": false,
+      "snapshot_date": "2026-11-04",
+      "baseline_used": true,
+      "method": "reference",
+      "norm_passes": 0,
+      "hull_m": 0,
+      "hull_lengths_m": [],
+      "motion_found": 0,
+      "motion_blind_below_kmh": null,
+      "vessels": [],
+      "vessel_count": 0,
+      "under_way_count": 0,
+      "hull_under_way_m": 0,
+      "vessel_area_m2": 0
+    },
+    {
+      "berth": "QUAY-E",
+      "kind": "drycargo",
+      "venture": "construction",
+      "vessel_px": 1793,
+      "vessel_frac": 0.041,
+      "occupied": true,
+      "snapshot_date": "2026-11-04",
+      "baseline_used": true,
+      "method": "reference",
+      "norm_passes": 0,
+      "hull_m": 174,
+      "hull_lengths_m": [
+        87,
+        87
+      ],
+      "motion_found": 0,
+      "motion_blind_below_kmh": null,
+      "vessels": [
+        {
+          "length_m": 87,
+          "area_m2": 1236
+        },
+        {
+          "length_m": 87,
+          "area_m2": 1344
+        }
+      ],
+      "vessel_count": 2,
+      "under_way_count": 0,
+      "hull_under_way_m": 0,
+      "vessel_area_m2": 2580
+    },
+    {
+      "berth": "QUAY-NE",
+      "kind": "drycargo",
+      "venture": "construction",
+      "vessel_px": 2,
+      "vessel_frac": 0.0,
+      "occupied": false,
+      "snapshot_date": "2026-11-04",
+      "baseline_used": true,
+      "method": "reference",
+      "norm_passes": 0,
+      "hull_m": 0,
+      "hull_lengths_m": [],
+      "motion_found": 0,
+      "motion_blind_below_kmh": null,
+      "vessels": [],
+      "vessel_count": 0,
+      "under_way_count": 0,
+      "hull_under_way_m": 0,
+      "vessel_area_m2": 0
+    }
+  ],
+  "sites": [
+    {
+      "site": "Tank farm",
+      "note": "tank farm — control site for the algorithm",
+      "control": true,
+      "changed": 0.823,
+      "hot_pixels": 0,
+      "construction_signal": true,
+      "snapshot_date": "2026-11-04",
+      "direction": null,
+      "changed_up": 0.44,
+      "changed_down": 0.53
+    },
+    {
+      "site": "Tank farm N",
+      "note": "northern tank farm — control site",
+      "control": true,
+      "changed": 0.267,
+      "hot_pixels": 245,
+      "construction_signal": true,
+      "snapshot_date": "2026-11-04",
+      "direction": null,
+      "changed_up": 0.45,
+      "changed_down": 0.52
+    },
+    {
+      "site": "Laydown yard",
+      "note": "module laydown yard — direct indicator of construction",
+      "control": false,
+      "changed": 0.509,
+      "hot_pixels": 0,
+      "construction_signal": true,
+      "snapshot_date": "2026-11-04",
+      "direction": "filling",
+      "changed_up": 0.75,
+      "changed_down": 0.22
+    },
+    {
+      "site": "Pearl GTL",
+      "note": "probably the GTL plant, unverified",
+      "control": false,
+      "changed": 0.233,
+      "hot_pixels": 385,
+      "construction_signal": true,
+      "snapshot_date": "2026-11-04",
+      "direction": null,
+      "changed_up": 0.42,
+      "changed_down": 0.57
+    },
+    {
+      "site": "Barzan",
+      "note": "mostly open ground on the image — zone unconfirmed",
+      "control": false,
+      "changed": 0.22,
+      "hot_pixels": 326,
+      "construction_signal": true,
+      "snapshot_date": "2026-11-04",
+      "direction": null,
+      "changed_up": 0.42,
+      "changed_down": 0.53
+    },
+    {
+      "site": "West plants",
+      "note": "large built-up area west of the LNG trains, operator not identified",
+      "control": false,
+      "changed": 0.376,
+      "hot_pixels": 0,
+      "construction_signal": true,
+      "snapshot_date": "2026-11-04",
+      "direction": null,
+      "changed_up": 0.42,
+      "changed_down": 0.53
+    }
+  ],
+  "firms_trend": [
+    [
+      "2026-10-25",
+      184.1
+    ],
+    [
+      "2026-10-26",
+      null
+    ],
+    [
+      "2026-10-27",
+      151.5
+    ],
+    [
+      "2026-10-28",
+      97.4
+    ],
+    [
+      "2026-10-29",
+      109.9
+    ],
+    [
+      "2026-10-30",
+      167.1
+    ],
+    [
+      "2026-10-31",
+      322.9
+    ],
+    [
+      "2026-11-01",
+      224.8
+    ],
+    [
+      "2026-11-02",
+      119.2
+    ],
+    [
+      "2026-11-03",
+      240.6
+    ],
+    [
+      "2026-11-04",
+      293.0
+    ],
+    [
+      "2026-11-05",
+      78.8
+    ],
+    [
+      "2026-11-06",
+      148.5
+    ],
+    [
+      "2026-11-07",
+      157.5
+    ],
+    [
+      "2026-11-08",
+      117.1
+    ],
+    [
+      "2026-11-09",
+      140.7
+    ],
+    [
+      "2026-11-10",
+      59.7
+    ],
+    [
+      "2026-11-11",
+      null
+    ]
+  ],
+  "shipping": {
+    "lng_loadings": 0,
+    "liquid_loadings": 0,
+    "sulphur_loadings": 0,
+    "drycargo_calls": 0,
+    "project_cargo_calls": 0,
+    "export_pct_of_norm": 0.0,
+    "norm_cargoes": 24.0,
+    "dredgers": 0,
+    "tugs": 0
+  },
+  "heat": {
+    "ai": {
+      "enabled": true,
+      "checks": [
+        {
+          "object": "JET-1",
+          "kind": "berth",
+          "code": "vessel (8049 m2 of bright deck)",
+          "ai": "vessel: unclear, direction unknown",
+          "ai_confidence": "medium",
+          "ai_note": "An elongated vessel sits alongside the angled finger pier at centre right, but its type cannot be determined from this resolution.",
+          "provider": "claude",
+          "agree": true,
+          "ai_direction": "unknown",
+          "ai_direction_clues": [
+            "no ship loader or conveyor visible on the quay",
+            "no yellow sulphur stockpiles visible",
+            "no modules or derricks visible on the quay"
+          ]
+        },
+        {
+          "object": "JET-2",
+          "kind": "berth",
+          "code": "vessel (2566 m2 of bright deck)",
+          "ai": "no vessel",
+          "ai_confidence": "medium",
+          "ai_note": "The bright curved band with two arms extending south looks like quay or jetty structure, and I see no hull, deck, or superstructure alongside it.",
+          "provider": "claude",
+          "agree": false,
+          "ai_direction": "unknown",
+          "ai_direction_clues": []
+        },
+        {
+          "object": "QUAY-E",
+          "kind": "berth",
+          "code": "vessel (2580 m2 of bright deck)",
+          "ai": "vessel: unclear, direction unknown",
+          "ai_confidence": "low",
+          "ai_note": "An elongated orange-and-white object at the upper right may be a moored vessel at a finger pier, but the main quay shows no clear hull and the image resolution ",
+          "provider": "claude",
+          "agree": true,
+          "ai_direction": "unknown",
+          "ai_direction_clues": []
+        },
+        {
+          "object": "JET-3",
+          "kind": "berth",
+          "code": "no vessel",
+          "ai": "no vessel",
+          "ai_confidence": "medium",
+          "ai_note": "The image shows only bright linear quay and jetty edges and dotted fender or pile lines over dark water, with no hull, superstructure, or cargo equipment visibl",
+          "provider": "claude",
+          "agree": true,
+          "ai_direction": "unknown",
+          "ai_direction_clues": []
+        },
+        {
+          "object": "JET-W",
+          "kind": "berth",
+          "code": "no vessel",
+          "ai": "no vessel",
+          "ai_confidence": "high",
+          "ai_note": "The bright curved quay and jetty arms are visible, but the adjacent water is empty with no hull, deck, or ship outline.",
+          "provider": "claude",
+          "agree": true,
+          "ai_direction": "unknown",
+          "ai_direction_clues": []
+        },
+        {
+          "object": "BAS-E",
+          "kind": "berth",
+          "code": "no vessel",
+          "ai": "vessel: unclear, direction unknown",
+          "ai_confidence": "low",
+          "ai_note": "A red-hulled object sits beside a pile dolphin on the left, but only a short section is visible, with no clear hull outline, and no loader, stockpile, or derric",
+          "provider": "claude",
+          "agree": false,
+          "ai_direction": "unknown",
+          "ai_direction_clues": []
+        }
+      ],
+      "calls": 6,
+      "providers": [
+        "claude"
+      ],
+      "agreed": 4,
+      "disputed": 2,
+      "note": "проверено объектов: 6, совпало 4, разошлось 2"
+    },
+    "index": 14.2,
+    "level": {
+      "label": "low",
+      "status": "good",
+      "what": "the asset is steady, no new work in sight"
+    },
+    "components": {
+      "construction": {
+        "label": "Site works",
+        "weight": 0.4,
+        "score": 25.0,
+        "why": "inbound cargo, project cargo, dredgers, changes in the laydown yards"
+      },
+      "idle": {
+        "label": "Idle capacity",
+        "weight": 0.25,
+        "score": 16.7,
+        "why": "share of capacity out of service — the volume of restoration work ahead"
+      },
+      "press": {
+        "label": "Press",
+        "weight": 0.2,
+        "score": 0.0,
+        "why": "tender and award mentions, tone of coverage"
+      },
+      "mobilisation": {
+        "label": "Mobilisation",
+        "weight": 0.15,
+        "score": 0.0,
+        "why": "signs of large-scale hiring at the contractors"
+      }
+    },
+    "missing": [],
+    "coverage_pct": 100.0,
+    "note": "all components available"
+  },
+  "intel": {
+    "collected": "2026-11-11 08:13 UTC",
+    "news_count": 0,
+    "tone": null,
+    "volume": [],
+    "hiring_total": 0,
+    "award_total": 0
+  },
+  "finance": {
+    "us_listed": [
+      {
+        "name": "KBR Inc",
+        "cik": 1357615,
+        "revenue": [
+          {
+            "end": "2024-06-28",
+            "val": 1847000000,
+            "frame": "CY2024Q2",
+            "form": "10-Q",
+            "fy": 2025,
+            "fp": "Q2"
+          },
+          {
+            "end": "2024-09-27",
+            "val": 1937000000,
+            "frame": "CY2024Q3",
+            "form": "10-Q",
+            "fy": 2025,
+            "fp": "Q3"
+          },
+          {
+            "end": "2025-04-04",
+            "val": 2018000000,
+            "frame": "CY2025Q1",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q1"
+          },
+          {
+            "end": "2025-07-04",
+            "val": 1952000000,
+            "frame": "CY2025Q2",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q2"
+          },
+          {
+            "end": "2025-10-03",
+            "val": 1931000000,
+            "frame": "CY2025Q3",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q3"
+          },
+          {
+            "end": "2026-04-03",
+            "val": 1923000000,
+            "frame": "CY2026Q1",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q1"
+          },
+          {
+            "end": "2026-07-03",
+            "val": 1984000000,
+            "frame": "CY2026Q2",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q2"
+          },
+          {
+            "end": "2026-10-02",
+            "val": 2028000000,
+            "frame": "CY2026Q3",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q3"
+          }
+        ],
+        "backlog": [
+          {
+            "end": "2025-01-03",
+            "val": 13800000000,
+            "frame": "CY2024Q4I",
+            "form": "10-K",
+            "fy": 2024,
+            "fp": "FY"
+          },
+          {
+            "end": "2025-04-04",
+            "val": 13800000000,
+            "frame": "CY2025Q1I",
+            "form": "10-Q",
+            "fy": 2025,
+            "fp": "Q1"
+          },
+          {
+            "end": "2025-07-04",
+            "val": 13100000000,
+            "frame": "CY2025Q2I",
+            "form": "10-Q",
+            "fy": 2025,
+            "fp": "Q2"
+          },
+          {
+            "end": "2025-10-03",
+            "val": 13500000000,
+            "frame": "CY2025Q3I",
+            "form": "10-Q",
+            "fy": 2025,
+            "fp": "Q3"
+          },
+          {
+            "end": "2026-01-02",
+            "val": 13300000000,
+            "frame": "CY2025Q4I",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          {
+            "end": "2026-04-03",
+            "val": 13600000000,
+            "frame": "CY2026Q1I",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q1"
+          },
+          {
+            "end": "2026-07-03",
+            "val": 13700000000,
+            "frame": "CY2026Q2I",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q2"
+          },
+          {
+            "end": "2026-10-02",
+            "val": 13600000000,
+            "frame": "CY2026Q3I",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q3"
+          }
+        ],
+        "latest_filing": {
+          "form": "8-K",
+          "date": "2026-11-09"
+        },
+        "error": null,
+        "revenue_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "revenue_change_pct": 5.0,
+        "revenue_compared_to": "CY2025Q3",
+        "backlog_change_pct": 0.7,
+        "backlog_compared_to": "CY2025Q3I"
+      },
+      {
+        "name": "Fluor Corporation",
+        "cik": 1124198,
+        "revenue": [
+          {
+            "end": "2017-06-30",
+            "val": 4716100000,
+            "frame": "CY2017Q2",
+            "form": "10-Q",
+            "fy": 2018,
+            "fp": "Q2"
+          },
+          {
+            "end": "2017-09-30",
+            "val": 4941600000,
+            "frame": "CY2017Q3",
+            "form": "10-Q",
+            "fy": 2018,
+            "fp": "Q3"
+          },
+          {
+            "end": "2018-03-31",
+            "val": 4823770000,
+            "frame": "CY2018Q1",
+            "form": "10-Q",
+            "fy": 2018,
+            "fp": "Q1"
+          },
+          {
+            "end": "2018-06-30",
+            "val": 4883796000,
+            "frame": "CY2018Q2",
+            "form": "10-Q",
+            "fy": 2018,
+            "fp": "Q2"
+          },
+          {
+            "end": "2018-09-30",
+            "val": 4657956000,
+            "frame": "CY2018Q3",
+            "form": "10-Q",
+            "fy": 2018,
+            "fp": "Q3"
+          }
+        ],
+        "backlog": [
+          {
+            "end": "2024-12-31",
+            "val": 26284000000,
+            "frame": "CY2024Q4I",
+            "form": "10-K",
+            "fy": 2024,
+            "fp": "FY"
+          },
+          {
+            "end": "2025-03-31",
+            "val": 27221000000,
+            "frame": "CY2025Q1I",
+            "form": "10-Q",
+            "fy": 2025,
+            "fp": "Q1"
+          },
+          {
+            "end": "2025-06-30",
+            "val": 26837000000,
+            "frame": "CY2025Q2I",
+            "form": "10-Q",
+            "fy": 2025,
+            "fp": "Q2"
+          },
+          {
+            "end": "2025-09-30",
+            "val": 26900000000,
+            "frame": "CY2025Q3I",
+            "form": "10-Q",
+            "fy": 2025,
+            "fp": "Q3"
+          },
+          {
+            "end": "2025-12-31",
+            "val": 24321000000,
+            "frame": "CY2025Q4I",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          {
+            "end": "2026-03-31",
+            "val": 24531000000,
+            "frame": "CY2026Q1I",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q1"
+          },
+          {
+            "end": "2026-06-30",
+            "val": 25861000000,
+            "frame": "CY2026Q2I",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q2"
+          },
+          {
+            "end": "2026-09-30",
+            "val": 33327000000,
+            "frame": "CY2026Q3I",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q3"
+          }
+        ],
+        "latest_filing": {
+          "form": "8-K",
+          "date": "2026-11-06"
+        },
+        "error": null,
+        "revenue_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "revenue_change_pct": -5.7,
+        "revenue_compared_to": "CY2017Q3",
+        "backlog_change_pct": 23.9,
+        "backlog_compared_to": "CY2025Q3I"
+      },
+      {
+        "name": "Jacobs Solutions",
+        "cik": 52988,
+        "revenue": [
+          {
+            "end": "2024-06-28",
+            "val": 2883384000,
+            "frame": "CY2024Q2",
+            "form": "10-Q",
+            "fy": 2025,
+            "fp": "Q3"
+          },
+          {
+            "end": "2024-09-27",
+            "val": 2960150000,
+            "frame": "CY2024Q3",
+            "form": "10-K",
+            "fy": 2024,
+            "fp": "FY"
+          },
+          {
+            "end": "2024-12-27",
+            "val": 2932956000,
+            "frame": "CY2024Q4",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q1"
+          },
+          {
+            "end": "2025-03-28",
+            "val": 2910415000,
+            "frame": "CY2025Q1",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q2"
+          },
+          {
+            "end": "2025-06-27",
+            "val": 3031768000,
+            "frame": "CY2025Q2",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q3"
+          },
+          {
+            "end": "2025-12-26",
+            "val": 3293281000,
+            "frame": "CY2025Q4",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q1"
+          },
+          {
+            "end": "2026-03-27",
+            "val": 3694881000,
+            "frame": "CY2026Q1",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q2"
+          },
+          {
+            "end": "2026-06-26",
+            "val": 4076410000,
+            "frame": "CY2026Q2",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q3"
+          }
+        ],
+        "backlog": [
+          {
+            "end": "2024-09-27",
+            "val": 13700000000,
+            "frame": "CY2024Q3I",
+            "form": "10-K",
+            "fy": 2024,
+            "fp": "FY"
+          },
+          {
+            "end": "2024-12-27",
+            "val": 14600000000,
+            "frame": "CY2024Q4I",
+            "form": "10-Q",
+            "fy": 2025,
+            "fp": "Q1"
+          },
+          {
+            "end": "2025-03-28",
+            "val": 15200000000,
+            "frame": "CY2025Q1I",
+            "form": "10-Q",
+            "fy": 2025,
+            "fp": "Q2"
+          },
+          {
+            "end": "2025-06-27",
+            "val": 15200000000,
+            "frame": "CY2025Q2I",
+            "form": "10-Q",
+            "fy": 2025,
+            "fp": "Q3"
+          },
+          {
+            "end": "2025-09-26",
+            "val": 15700000000,
+            "frame": "CY2025Q3I",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          {
+            "end": "2025-12-26",
+            "val": 18500000000,
+            "frame": "CY2025Q4I",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q1"
+          },
+          {
+            "end": "2026-03-27",
+            "val": 19000000000,
+            "frame": "CY2026Q1I",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q2"
+          },
+          {
+            "end": "2026-06-26",
+            "val": 22200000000,
+            "frame": "CY2026Q2I",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q3"
+          }
+        ],
+        "latest_filing": {
+          "form": "8-K",
+          "date": "2026-08-14"
+        },
+        "error": null,
+        "revenue_tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+        "revenue_change_pct": 34.5,
+        "revenue_compared_to": "CY2025Q2",
+        "backlog_change_pct": 46.1,
+        "backlog_compared_to": "CY2025Q2I"
+      },
+      {
+        "name": "Baker Hughes",
+        "cik": 1701605,
+        "revenue": [
+          {
+            "end": "2024-06-30",
+            "val": 7139000000,
+            "frame": "CY2024Q2",
+            "form": "10-Q",
+            "fy": 2025,
+            "fp": "Q2"
+          },
+          {
+            "end": "2024-09-30",
+            "val": 6908000000,
+            "frame": "CY2024Q3",
+            "form": "10-Q",
+            "fy": 2025,
+            "fp": "Q3"
+          },
+          {
+            "end": "2025-03-31",
+            "val": 6427000000,
+            "frame": "CY2025Q1",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q1"
+          },
+          {
+            "end": "2025-06-30",
+            "val": 6910000000,
+            "frame": "CY2025Q2",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q2"
+          },
+          {
+            "end": "2025-09-30",
+            "val": 7010000000,
+            "frame": "CY2025Q3",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q3"
+          },
+          {
+            "end": "2026-03-31",
+            "val": 6587000000,
+            "frame": "CY2026Q1",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q1"
+          },
+          {
+            "end": "2026-06-30",
+            "val": 6742000000,
+            "frame": "CY2026Q2",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q2"
+          },
+          {
+            "end": "2026-09-30",
+            "val": 8025000000,
+            "frame": "CY2026Q3",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q3"
+          }
+        ],
+        "backlog": [
+          {
+            "end": "2024-12-31",
+            "val": 33100000000,
+            "frame": "CY2024Q4I",
+            "form": "10-K",
+            "fy": 2024,
+            "fp": "FY"
+          },
+          {
+            "end": "2025-03-31",
+            "val": 33200000000,
+            "frame": "CY2025Q1I",
+            "form": "10-Q",
+            "fy": 2025,
+            "fp": "Q1"
+          },
+          {
+            "end": "2025-06-30",
+            "val": 34000000000,
+            "frame": "CY2025Q2I",
+            "form": "10-Q",
+            "fy": 2025,
+            "fp": "Q2"
+          },
+          {
+            "end": "2025-09-30",
+            "val": 35300000000,
+            "frame": "CY2025Q3I",
+            "form": "10-Q",
+            "fy": 2025,
+            "fp": "Q3"
+          },
+          {
+            "end": "2025-12-31",
+            "val": 35900000000,
+            "frame": "CY2025Q4I",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          {
+            "end": "2026-03-31",
+            "val": 36100000000,
+            "frame": "CY2026Q1I",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q1"
+          },
+          {
+            "end": "2026-06-30",
+            "val": 40100000000,
+            "frame": "CY2026Q2I",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q2"
+          },
+          {
+            "end": "2026-09-30",
+            "val": 46400000000,
+            "frame": "CY2026Q3I",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q3"
+          }
+        ],
+        "latest_filing": {
+          "form": "10-Q",
+          "date": "2026-10-28"
+        },
+        "error": null,
+        "revenue_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "revenue_change_pct": 14.5,
+        "revenue_compared_to": "CY2025Q3",
+        "backlog_change_pct": 31.4,
+        "backlog_compared_to": "CY2025Q3I"
+      },
+      {
+        "name": "Air Products",
+        "cik": 2969,
+        "revenue": [
+          {
+            "end": "2024-03-31",
+            "val": 2930200000,
+            "frame": "CY2024Q1",
+            "form": "10-Q",
+            "fy": 2025,
+            "fp": "Q2"
+          },
+          {
+            "end": "2024-06-30",
+            "val": 2985500000,
+            "frame": "CY2024Q2",
+            "form": "10-Q",
+            "fy": 2025,
+            "fp": "Q3"
+          },
+          {
+            "end": "2024-12-31",
+            "val": 2931500000,
+            "frame": "CY2024Q4",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q1"
+          },
+          {
+            "end": "2025-03-31",
+            "val": 2916200000,
+            "frame": "CY2025Q1",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q2"
+          },
+          {
+            "end": "2025-06-30",
+            "val": 3022700000,
+            "frame": "CY2025Q2",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q3"
+          },
+          {
+            "end": "2025-12-31",
+            "val": 3102500000,
+            "frame": "CY2025Q4",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q1"
+          },
+          {
+            "end": "2026-03-31",
+            "val": 3171800000,
+            "frame": "CY2026Q1",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q2"
+          },
+          {
+            "end": "2026-06-30",
+            "val": 3161000000,
+            "frame": "CY2026Q2",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q3"
+          }
+        ],
+        "backlog": [
+          {
+            "end": "2024-09-30",
+            "val": 26000000000,
+            "frame": "CY2024Q3I",
+            "form": "10-K",
+            "fy": 2024,
+            "fp": "FY"
+          },
+          {
+            "end": "2024-12-31",
+            "val": 26000000000,
+            "frame": "CY2024Q4I",
+            "form": "10-Q",
+            "fy": 2025,
+            "fp": "Q1"
+          },
+          {
+            "end": "2025-03-31",
+            "val": 26000000000,
+            "frame": "CY2025Q1I",
+            "form": "10-Q",
+            "fy": 2025,
+            "fp": "Q2"
+          },
+          {
+            "end": "2025-06-30",
+            "val": 26000000000,
+            "frame": "CY2025Q2I",
+            "form": "10-Q",
+            "fy": 2025,
+            "fp": "Q3"
+          },
+          {
+            "end": "2025-09-30",
+            "val": 26000000000,
+            "frame": "CY2025Q3I",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          {
+            "end": "2025-12-31",
+            "val": 26000000000,
+            "frame": "CY2025Q4I",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q1"
+          },
+          {
+            "end": "2026-03-31",
+            "val": 28000000000,
+            "frame": "CY2026Q1I",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q2"
+          },
+          {
+            "end": "2026-06-30",
+            "val": 28000000000,
+            "frame": "CY2026Q2I",
+            "form": "10-Q",
+            "fy": 2026,
+            "fp": "Q3"
+          }
+        ],
+        "latest_filing": {
+          "form": "8-K",
+          "date": "2026-11-05"
+        },
+        "error": null,
+        "revenue_tag": "Revenues",
+        "revenue_change_pct": 4.6,
+        "revenue_compared_to": "CY2025Q2",
+        "backlog_change_pct": 7.7,
+        "backlog_compared_to": "CY2025Q2I"
+      }
+    ],
+    "not_us_listed": [
+      {
+        "name": "Technip Energies",
+        "listing": "Euronext Paris"
+      },
+      {
+        "name": "Saipem",
+        "listing": "Borsa Italiana"
+      },
+      {
+        "name": "Chiyoda Corporation",
+        "listing": "Tokyo"
+      },
+      {
+        "name": "JGC Holdings",
+        "listing": "Tokyo"
+      },
+      {
+        "name": "Samsung E&A",
+        "listing": "Korea Exchange"
+      },
+      {
+        "name": "Hyundai Engineering",
+        "listing": "not publicly traded"
+      },
+      {
+        "name": "QatarEnergy",
+        "listing": "state-owned, no public accounts"
+      }
+    ],
+    "note": "Filings are available only for companies listed in the US. Technip Energies, Saipem, Chiyoda, JGC and others are not covered here. QatarEnergy is state-owned and publishes no full accounts.",
+    "collected": "2026-11-11 08:13 UTC"
+  },
+  "areas": {
+    "ras-laffan": {
+      "key": "ras-laffan",
+      "title": "Ras Laffan",
+      "note": "the largest LNG liquefaction complex in the world",
+      "bbox": [
+        51.48,
+        25.86,
+        51.665,
+        25.97
+      ],
+      "date": "2026-11-04",
+      "age_days": 7,
+      "cloud": 0.1,
+      "prev_date": "2026-11-01",
+      "newer_cloudy": [
+        {
+          "date": "2026-11-09",
+          "cloud": 73.5
+        }
+      ],
+      "typical_gap_days": 2,
+      "next_pass_estimate": "2026-11-12",
+      "count": 1,
+      "large_count": 0,
+      "fixed_count": 0,
+      "raw_count": 1,
+      "px_size_m": 9.0,
+      "reliable_min_len_m": 36,
+      "image": "data\\chips\\area_ras-laffan_2026-11-04_web.jpg",
+      "error": null,
+      "warning": null
+    },
+    "hormuz": {
+      "key": "hormuz",
+      "title": "Strait of Hormuz",
+      "note": "every Qatari LNG cargo passes through it",
+      "bbox": [
+        56.2,
+        26.35,
+        56.8,
+        26.95
+      ],
+      "date": "2026-11-08",
+      "age_days": 3,
+      "cloud": 4.0,
+      "prev_date": "2026-11-03",
+      "newer_cloudy": [],
+      "typical_gap_days": 5,
+      "next_pass_estimate": "2026-11-13",
+      "count": 25,
+      "large_count": 25,
+      "fixed_count": 0,
+      "raw_count": 25,
+      "px_size_m": 32.4,
+      "reliable_min_len_m": 130,
+      "image": "data\\chips\\area_hormuz_2026-11-08_web.jpg",
+      "error": null,
+      "warning": null
+    },
+    "bab-el-mandeb": {
+      "key": "bab-el-mandeb",
+      "title": "Bab-el-Mandeb",
+      "note": "the route to Europe through the Suez Canal",
+      "bbox": [
+        43.1,
+        12.35,
+        43.7,
+        12.95
+      ],
+      "date": "2026-11-07",
+      "age_days": 4,
+      "cloud": 0.3,
+      "prev_date": "2026-11-05",
+      "newer_cloudy": [],
+      "typical_gap_days": 3,
+      "next_pass_estimate": "2026-11-13",
+      "count": 10,
+      "large_count": 10,
+      "fixed_count": 0,
+      "raw_count": 10,
+      "px_size_m": 32.4,
+      "reliable_min_len_m": 130,
+      "image": "data\\chips\\area_bab-el-mandeb_2026-11-07_web.jpg",
+      "error": null,
+      "warning": null
+    }
+  },
+  "disclaimer": "Automatic conclusions from open data. Tying a vessel to a specific liquefaction train is physically impossible."
+}

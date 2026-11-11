@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-11 08:23 UTC",
+  "generated_utc": "2026-11-11 10:37 UTC",
   "period": {
     "from": "2026-11-04",
     "to": "2026-11-04"
@@ -551,25 +551,21 @@
           "kind": "berth",
           "code": "vessel (8049 m2 of bright deck)",
           "ai": "vessel: unclear, direction unknown",
-          "ai_confidence": "medium",
-          "ai_note": "An elongated vessel sits alongside the angled finger pier at centre right, but its type cannot be determined from this resolution.",
-          "provider": "claude",
+          "ai_confidence": "high",
+          "ai_note": "A greenish vessel is moored alongside the spur jetty dolphins, but cargo operations cannot be identified.",
+          "provider": "gemini",
           "agree": true,
           "ai_direction": "unknown",
-          "ai_direction_clues": [
-            "no ship loader or conveyor visible on the quay",
-            "no yellow sulphur stockpiles visible",
-            "no modules or derricks visible on the quay"
-          ]
+          "ai_direction_clues": []
         },
         {
           "object": "JET-2",
           "kind": "berth",
           "code": "vessel (2566 m2 of bright deck)",
           "ai": "no vessel",
-          "ai_confidence": "medium",
-          "ai_note": "The bright curved band with two arms extending south looks like quay or jetty structure, and I see no hull, deck, or superstructure alongside it.",
-          "provider": "claude",
+          "ai_confidence": "high",
+          "ai_note": "Both jetty berths are vacant with only dark open water visible around the structures.",
+          "provider": "gemini",
           "agree": false,
           "ai_direction": "unknown",
           "ai_direction_clues": []
@@ -578,11 +574,11 @@
           "object": "QUAY-E",
           "kind": "berth",
           "code": "vessel (2580 m2 of bright deck)",
-          "ai": "vessel: unclear, direction unknown",
-          "ai_confidence": "low",
-          "ai_note": "An elongated orange-and-white object at the upper right may be a moored vessel at a finger pier, but the main quay shows no clear hull and the image resolution ",
-          "provider": "claude",
-          "agree": true,
+          "ai": "no vessel",
+          "ai_confidence": "high",
+          "ai_note": "The berth and mooring dolphins are vacant with no ship moored.",
+          "provider": "gemini",
+          "agree": false,
           "ai_direction": "unknown",
           "ai_direction_clues": []
         },
@@ -591,9 +587,9 @@
           "kind": "berth",
           "code": "no vessel",
           "ai": "no vessel",
-          "ai_confidence": "medium",
-          "ai_note": "The image shows only bright linear quay and jetty edges and dotted fender or pile lines over dark water, with no hull, superstructure, or cargo equipment visibl",
-          "provider": "claude",
+          "ai_confidence": "high",
+          "ai_note": "The jetty arms and mooring dolphins are fully unoccupied with only open water visible alongside.",
+          "provider": "gemini",
           "agree": true,
           "ai_direction": "unknown",
           "ai_direction_clues": []
@@ -604,8 +600,8 @@
           "code": "no vessel",
           "ai": "no vessel",
           "ai_confidence": "high",
-          "ai_note": "The bright curved quay and jetty arms are visible, but the adjacent water is empty with no hull, deck, or ship outline.",
-          "provider": "claude",
+          "ai_note": "The jetty structures and surrounding dark water are empty with no vessel present.",
+          "provider": "gemini",
           "agree": true,
           "ai_direction": "unknown",
           "ai_direction_clues": []
@@ -614,22 +610,23 @@
           "object": "BAS-E",
           "kind": "berth",
           "code": "no vessel",
-          "ai": "vessel: unclear, direction unknown",
-          "ai_confidence": "low",
-          "ai_note": "A red-hulled object sits beside a pile dolphin on the left, but only a short section is visible, with no clear hull outline, and no loader, stockpile, or derric",
+          "ai": "no vessel",
+          "ai_confidence": null,
+          "ai_note": "",
           "provider": "claude",
-          "agree": false,
-          "ai_direction": "unknown",
+          "agree": null,
+          "ai_direction": null,
           "ai_direction_clues": []
         }
       ],
       "calls": 6,
       "providers": [
-        "claude"
+        "claude",
+        "gemini"
       ],
-      "agreed": 4,
+      "agreed": 3,
       "disputed": 2,
-      "note": "проверено объектов: 6, совпало 4, разошлось 2"
+      "note": "проверено объектов: 6, совпало 3, разошлось 2"
     },
     "index": 14.2,
     "level": {
@@ -668,7 +665,7 @@
     "note": "all components available"
   },
   "intel": {
-    "collected": "2026-11-11 08:13 UTC",
+    "collected": "2026-11-11 10:35 UTC",
     "news_count": 0,
     "tone": null,
     "volume": [],
@@ -1415,7 +1412,7 @@
       }
     ],
     "note": "Filings are available only for companies listed in the US. Technip Energies, Saipem, Chiyoda, JGC and others are not covered here. QatarEnergy is state-owned and publishes no full accounts.",
-    "collected": "2026-11-11 08:13 UTC"
+    "collected": "2026-11-11 10:36 UTC"
   },
   "areas": {
     "ras-laffan": {
@@ -1487,20 +1484,20 @@
         43.7,
         12.95
       ],
-      "date": "2026-11-07",
-      "age_days": 4,
-      "cloud": 0.3,
-      "prev_date": "2026-11-05",
+      "date": "2026-11-10",
+      "age_days": 1,
+      "cloud": 4.6,
+      "prev_date": "2026-11-07",
       "newer_cloudy": [],
       "typical_gap_days": 3,
       "next_pass_estimate": "2026-11-13",
-      "count": 10,
-      "large_count": 10,
+      "count": 11,
+      "large_count": 11,
       "fixed_count": 0,
-      "raw_count": 10,
+      "raw_count": 11,
       "px_size_m": 32.4,
       "reliable_min_len_m": 130,
-      "image": "data\\chips\\area_bab-el-mandeb_2026-11-07_web.jpg",
+      "image": "data\\chips\\area_bab-el-mandeb_2026-11-10_web.jpg",
       "error": null,
       "warning": null
     }

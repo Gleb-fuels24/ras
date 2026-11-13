@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-11 10:37 UTC",
+  "generated_utc": "2026-11-13 09:25 UTC",
   "period": {
     "from": "2026-11-04",
     "to": "2026-11-04"
@@ -12,7 +12,7 @@
     "signals": {
       "thermal": true,
       "hot_trains": 5,
-      "frp_sum": 2612.8,
+      "frp_sum": 2949.7,
       "lng_loadings": null,
       "liquid_loadings": null,
       "sulphur_loadings": null,
@@ -63,7 +63,7 @@
       "status": "PRODUCING",
       "confidence": "high",
       "evidence": [
-        "VIIRS thermal hits: 39",
+        "VIIRS thermal hits: 34",
         "LNG carrier alongside on the image: JET-1, JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
       ],
       "hot_pixels": 0,
@@ -80,7 +80,7 @@
       "confidence": "high",
       "evidence": [
         "hot SWIR pixels: 743",
-        "VIIRS thermal hits: 64",
+        "VIIRS thermal hits: 58",
         "LNG carrier alongside on the image: JET-1, JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
       ],
       "hot_pixels": 743,
@@ -97,7 +97,7 @@
       "confidence": "high",
       "evidence": [
         "hot SWIR pixels: 162",
-        "VIIRS thermal hits: 90",
+        "VIIRS thermal hits: 86",
         "LNG carrier alongside on the image: JET-1, JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
       ],
       "hot_pixels": 162,
@@ -114,7 +114,7 @@
       "confidence": "high",
       "evidence": [
         "hot SWIR pixels: 454",
-        "VIIRS thermal hits: 70",
+        "VIIRS thermal hits: 76",
         "LNG carrier alongside on the image: JET-1, JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
       ],
       "hot_pixels": 454,
@@ -131,7 +131,7 @@
       "confidence": "high",
       "evidence": [
         "hot SWIR pixels: 692",
-        "VIIRS thermal hits: 72",
+        "VIIRS thermal hits: 69",
         "LNG carrier alongside on the image: JET-1, JET-2 — the thermal signal is backed by a vessel at the berth, though a completed loading is not proven"
       ],
       "hot_pixels": 692,
@@ -528,6 +528,14 @@
     ],
     [
       "2026-11-11",
+      102.7
+    ],
+    [
+      "2026-11-12",
+      234.2
+    ],
+    [
+      "2026-11-13",
       null
     ]
   ],
@@ -551,9 +559,9 @@
           "kind": "berth",
           "code": "vessel (8049 m2 of bright deck)",
           "ai": "vessel: unclear, direction unknown",
-          "ai_confidence": "high",
-          "ai_note": "A greenish vessel is moored alongside the spur jetty dolphins, but cargo operations cannot be identified.",
-          "provider": "gemini",
+          "ai_confidence": "medium",
+          "ai_note": "A dark elongated hull with light highlights lies alongside the finger jetty at centre-right, but its type is not clear, and no loader, conveyor, stockpile, or e",
+          "provider": "claude",
           "agree": true,
           "ai_direction": "unknown",
           "ai_direction_clues": []
@@ -563,9 +571,9 @@
           "kind": "berth",
           "code": "vessel (2566 m2 of bright deck)",
           "ai": "no vessel",
-          "ai_confidence": "high",
-          "ai_note": "Both jetty berths are vacant with only dark open water visible around the structures.",
-          "provider": "gemini",
+          "ai_confidence": "low",
+          "ai_note": "The bright curved band and two angled arms look like quay or pier structures, with no clear hull, superstructure, or cargo equipment visible.",
+          "provider": "claude",
           "agree": false,
           "ai_direction": "unknown",
           "ai_direction_clues": []
@@ -574,11 +582,11 @@
           "object": "QUAY-E",
           "kind": "berth",
           "code": "vessel (2580 m2 of bright deck)",
-          "ai": "no vessel",
-          "ai_confidence": "high",
-          "ai_note": "The berth and mooring dolphins are vacant with no ship moored.",
-          "provider": "gemini",
-          "agree": false,
+          "ai": "vessel: unclear, direction unknown",
+          "ai_confidence": "low",
+          "ai_note": "An elongated orange and grey object sits at the pier head in the upper right, possibly a ship or barge, but the main quay shows no clearly moored vessel and no ",
+          "provider": "claude",
+          "agree": true,
           "ai_direction": "unknown",
           "ai_direction_clues": []
         },
@@ -587,9 +595,9 @@
           "kind": "berth",
           "code": "no vessel",
           "ai": "no vessel",
-          "ai_confidence": "high",
-          "ai_note": "The jetty arms and mooring dolphins are fully unoccupied with only open water visible alongside.",
-          "provider": "gemini",
+          "ai_confidence": "medium",
+          "ai_note": "The bright linear features look like quay and jetty edges with dotted trestle or dolphin lines, and I see no hull outline, superstructure, or cargo equipment al",
+          "provider": "claude",
           "agree": true,
           "ai_direction": "unknown",
           "ai_direction_clues": []
@@ -599,9 +607,9 @@
           "kind": "berth",
           "code": "no vessel",
           "ai": "no vessel",
-          "ai_confidence": "high",
-          "ai_note": "The jetty structures and surrounding dark water are empty with no vessel present.",
-          "provider": "gemini",
+          "ai_confidence": "medium",
+          "ai_note": "The curved quay and jetty arms are visible, but the adjacent water is dark and empty, with no hull or ship structure seen.",
+          "provider": "claude",
           "agree": true,
           "ai_direction": "unknown",
           "ai_direction_clues": []
@@ -621,12 +629,11 @@
       ],
       "calls": 6,
       "providers": [
-        "claude",
-        "gemini"
+        "claude"
       ],
-      "agreed": 3,
-      "disputed": 2,
-      "note": "проверено объектов: 6, совпало 3, разошлось 2"
+      "agreed": 4,
+      "disputed": 1,
+      "note": "проверено объектов: 6, совпало 4, разошлось 1"
     },
     "index": 14.2,
     "level": {
@@ -665,7 +672,7 @@
     "note": "all components available"
   },
   "intel": {
-    "collected": "2026-11-11 10:35 UTC",
+    "collected": "2026-11-13 09:20 UTC",
     "news_count": 0,
     "tone": null,
     "volume": [],
@@ -811,7 +818,7 @@
         ],
         "latest_filing": {
           "form": "8-K",
-          "date": "2026-11-09"
+          "date": "2026-11-12"
         },
         "error": null,
         "revenue_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
@@ -1412,7 +1419,7 @@
       }
     ],
     "note": "Filings are available only for companies listed in the US. Technip Energies, Saipem, Chiyoda, JGC and others are not covered here. QatarEnergy is state-owned and publishes no full accounts.",
-    "collected": "2026-11-11 10:36 UTC"
+    "collected": "2026-11-13 09:20 UTC"
   },
   "areas": {
     "ras-laffan": {
@@ -1426,7 +1433,7 @@
         25.97
       ],
       "date": "2026-11-04",
-      "age_days": 7,
+      "age_days": 9,
       "cloud": 0.1,
       "prev_date": "2026-11-01",
       "newer_cloudy": [
@@ -1436,7 +1443,7 @@
         }
       ],
       "typical_gap_days": 2,
-      "next_pass_estimate": "2026-11-12",
+      "next_pass_estimate": "2026-11-15",
       "count": 1,
       "large_count": 0,
       "fixed_count": 0,
@@ -1458,20 +1465,20 @@
         26.95
       ],
       "date": "2026-11-08",
-      "age_days": 3,
+      "age_days": 5,
       "cloud": 4.0,
       "prev_date": "2026-11-03",
       "newer_cloudy": [],
       "typical_gap_days": 5,
-      "next_pass_estimate": "2026-11-13",
-      "count": 25,
-      "large_count": 25,
+      "next_pass_estimate": "2026-11-18",
+      "count": 0,
+      "large_count": 0,
       "fixed_count": 0,
-      "raw_count": 25,
-      "px_size_m": 32.4,
-      "reliable_min_len_m": 130,
-      "image": "data\\chips\\area_hormuz_2026-11-08_web.jpg",
-      "error": null,
+      "raw_count": 0,
+      "px_size_m": null,
+      "reliable_min_len_m": null,
+      "image": null,
+      "error": "image download failed: HTTPSConnectionPool(host='sh.dataspace.copernicus.eu', port=443): Read timed out.",
       "warning": null
     },
     "bab-el-mandeb": {
@@ -1485,12 +1492,12 @@
         12.95
       ],
       "date": "2026-11-10",
-      "age_days": 1,
+      "age_days": 3,
       "cloud": 4.6,
       "prev_date": "2026-11-07",
       "newer_cloudy": [],
       "typical_gap_days": 3,
-      "next_pass_estimate": "2026-11-13",
+      "next_pass_estimate": "2026-11-16",
       "count": 11,
       "large_count": 11,
       "fixed_count": 0,
